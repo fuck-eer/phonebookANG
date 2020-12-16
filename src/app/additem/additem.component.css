@@ -1,0 +1,59 @@
+.formmodal{
+    color: whitesmoke;
+    padding: 30px auto;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:fixed;
+    width: 35%;
+    height: 300px;
+background-color: #292929;
+z-index: 100;
+border-radius: 20px;
+box-shadow: 2px 2px 20px #757575;
+}
+.frm{
+    margin: 40px auto;
+ 
+    
+}
+
+.formmodal h2{
+    text-align: center;
+}
+.rwmar{
+    margin: 5px auto;
+}
+
+.backdrop{
+    top: 0;
+    left: 0;
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+z-index: 99;
+background-color: rgba(34, 34, 34, 0.692);
+backdrop-filter: blur(5px);
+
+}
+.form-control{
+    color: whitesmoke;
+    background-color: #292929;
+    border: none;
+    border-bottom:2px solid whitesmoke ;
+}
+.btnn{
+    /* background-color: black; */
+    color:black;
+  
+}
+.closeicon{
+    color :rgb(252, 116, 116);
+    color: whitesmoke;
+    text-shadow: 1px 1px 7px #ff5050;
+    font-weight: 500;
+    margin-left:15px ;
+    font-size: 30px;
+    float: left;
+    cursor: pointer;
+}

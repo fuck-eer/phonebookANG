@@ -1,0 +1,25 @@
+.contact-item{
+    border-radius: 10px;
+}
+.semo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between ;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+.namenum{
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+}
+
+.namenum h5{
+font-size: 22px;
+color:black;
+}
+.namenum h6{
+    color:#444;
+    font-size: 18px;
+}

@@ -1,0 +1,4 @@
+<div class="list-group">
+    <button class="btn btn-light" (click)='sortingbynames()'>sort by name</button>
+    <app-contact  *ngFor="let item of allcontacts; let id=index" [contact]='item' [indx]='id'></app-contact>
+</div>

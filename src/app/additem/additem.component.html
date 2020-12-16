@@ -1,0 +1,47 @@
+
+<div class="backdrop" (click)='onhidemodal()'></div>
+
+
+<div class='formmodal'>
+   <h3 class="closeicon" (click)='onhidemodal()'>X</h3>
+    <h2>ADD CONTACT</h2>
+
+    <form (ngSubmit)='onAddContact()' class="form-group frm" #f='ngForm' >
+
+<div class="form-row">
+<div class="col-md-5 col-md-offset-1">
+
+    <input name='firstName' type="text" placeholder="Name" required class="form-control" ngModel #fname >
+</div>
+
+<div class="col-md-5 ">
+
+    <input type="text" placeholder="Family-Name" class="form-control" name='lastName' ngModel #lname >
+</div>
+
+</div>
+<br>
+<br>
+<br>
+<div class="form-row rwmar">
+    <div class="col-md-10 col-md-offset-1">
+        <input type="text" placeholder="Phone Number" ngModel required class="form-control" name='phoneNumber' #phno>
+
+    </div>
+</div>
+<br>
+<br>
+<br>
+
+<div class="form-row">
+    <div class="col-md-3 col-md-offset-1">
+
+        <button type="submit" class="btn btn-dark btnn" [disabled]='!f.valid'>ADD</button>
+    </div>
+
+</div>
+    
+    </form>
+</div>
+
+
